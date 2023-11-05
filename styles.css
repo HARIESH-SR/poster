@@ -1,0 +1,41 @@
+.container{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    top: 50px;
+    left: 400px;
+    flex-direction: column;
+    background: rgb(32,66,153);
+    background: linear-gradient(90deg, rgba(32,66,153,1) 0%, rgba(31,154,211,1) 100%);
+}
+.heading{
+    display: flex;
+
+    height: 80px;
+}
+
+.college-name{
+
+    color: white;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    
+}
+img{
+    width: 130px;
+    margin-top: 8px;
+}
+#college-name{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.college-name>p{
+    margin: 0px;
+    text-align: center;
+    font-size: 15px;
+}
